@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  background-color: grey;
+  min-height: 50px;
+  width: 100%;
+}
+
+/* .header .left {
+  display: flex;
+  width: 20%;
+  height: 50px;
+  background-color: yellow;
+}
+
+.header .right {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  background-color: black;
+  margin-left: ;
+} */
+
+.main {
+  display: block;
+  background-color: white;
+  min-height: 500px;
+  width: 100%;
+}
+.footer {
+  display: block;
+  width: 100%;
+  background-color: grey;
+  min-height: 50px;
+}
+/* main */
+.title {
+  display: block;
+  min-height: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.banner {
+  display: block;
+  min-height: 50px;
+  margin: auto;
+  justify-content: center;
+}
+
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+  height: 350px;
+  min-height: 100px;
+  justify-content: center;
+}
+
+.feature .col {
+  width: 25%;
+  display: flex;
+  height: 150px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.feature .col img {
+  width: 120px;
+  height: 120px;
+  margin-right: 10px;
+}
+
+.feature .col .content {
+  /* width: 70%; */
+}
+
+.feature .col .content .title2 {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: rgb(21, 181, 230);
+  height: 50px;
+  width: 200px;
+  border-radius: 100px;
+  margin-left: 45%;
+  margin-top: 20px;
+}
